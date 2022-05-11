@@ -39,3 +39,26 @@ function displayDate()  {
   document.getElementById("demo").innerHTML = Date();
 
 }
+
+let str = 'Bhargav';
+let text = "";
+
+for (const x of str) {
+ text += x + "<br>"; 
+}
+
+
+function iterate(){
+
+document.getElementById("demo").innerHTML = text;
+  }
+
+  
+  function sets(){
+    const letters = new Set(["a", "b","c"]);
+    document.getElementById("demo1").innerHTML = letters.values();
+  }
+
+
+
+  const 
